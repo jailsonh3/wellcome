@@ -25,7 +25,13 @@ const typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString('Jailson Silva')
+  .typeString('Hey, Welcome!')
   .pauseFor(300)
   .deleteChars(13)
+  .typeString("I'am Jailson!")
+  .pauseFor(300)
+  .deleteChars(13)
+  .typeString("I'm a Web Developer!")
+  .pauseFor(300)
+  .deleteChars(19)
   .start();
